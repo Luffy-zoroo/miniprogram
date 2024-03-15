@@ -1,0 +1,8 @@
+<!--pages/pedestrain/pedestrain.wxml-->
+<map longitude="{{longitude}}" latitude="{{latitude}}" show-location="true" markers=""  name="" show-show-compass="{{true}}"  style="width: 708rpx; height: 359rpx; display: block; box-sizing: border-box; left: 19rpx; top: 29rpx; position: relative">
+</map>
+<button style="left: -3rpx; top: 97rpx; position: relative" type="primary" bindtap="locate">定位</button>
+<button type="default" style="position: relative; left: -3rpx; top: 146rpx" bindtap="cross">{{ped}}</button>
+<image style="position: relative; width: 708rpx; height: 312rpx; display: inline-block; box-sizing: border-box; left: 19rpx; top: 207rpx" src="https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fdpic.tiankong.com%2Fvi%2Frf%2FQJ8509347161.jpg%3Fx-oss-process%3Dstyle%2Fshows&refer=http%3A%2F%2Fdpic.tiankong.com&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=jpeg?sec=1622977946&t=4b1028676e94b879de254d4b348b5685"/>
+
+

@@ -1,0 +1,47 @@
+<view class="header">
+    <view class="user_box" bindtap='bindsignin' open-type="getUserInfo">
+        <view class="logo">
+          <!--<open-data class="" type="userAvatarUrl" open-gid=""></open-data>  -->
+          <image wx:if="{{!info}}" src="{{avatarUrl}}" ></image><!-- 初始头像image链接-->
+          <open-data wx:else type="userAvatarUrl"></open-data>
+        </view>
+        <text wx:if="{{!info}}" class='headname'>{{nickname}} </text>
+        <open-data wx:else type="userNickName"></open-data>
+    </view>
+  <view class="nav">
+    <view class="item">
+      <view class='wallet'>
+        <text decode="{{true}}" space="{{true}}">&nbsp;&nbsp;</text>
+        <image src='../../icons/fri.png' class='iimg'></image>
+        <text>进入导航</text>
+      </view>
+    </view>
+    <view class="item">
+      <view class='wallet'>
+        <text decode="{{true}}" space="{{true}}">&nbsp;&nbsp;</text>
+        <image src='../../icons/shou.png' class='iimg'></image>
+        <text>授权设置</text>
+      </view>
+    </view>
+    <view class="item">
+      <view class='wallet'>
+      <text decode="{{true}}" space="{{true}}">&nbsp;&nbsp;</text>
+      <image src='../../icons/yijian.png' class='iimg'></image>
+      <text>意见反馈</text></view>
+    </view>
+    <view class="item">
+      <view class='wallet'>
+        <text decode="{{true}}" space="{{true}}">&nbsp;&nbsp;</text>
+        <image src='../../icons/guanyu.png' class='iimg'></image>
+        <text>关于我们</text>
+      </view>
+    </view>
+    <view class="item">
+      <view class='wallet'>
+        <text decode="{{true}}" space="{{true}}">&nbsp;&nbsp;</text>
+        <image src='../../icons/kefu.png' class='iimg'></image>
+        <text>联系客服</text>
+      </view>
+    </view>
+  </view>
+</view>

@@ -1,0 +1,8 @@
+<!--pages/driver/driver.wxml-->
+
+<map longitude="{{longitude}}" latitude="{{latitude}}" show-location="true" markers="" name="" show-show-compass="{{true}}"  style="width: 708rpx; height: 359rpx; display: block; box-sizing: border-box; left: 19rpx; top: 29rpx; position: relative"></map>
+<image style="position: relative; width: 708rpx; height: 310rpx; display: inline-block; box-sizing: border-box; left: 19rpx; top: 383rpx" src="https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fimg.sj33.cn%2Fuploads%2Fallimg%2F200903%2F20090301230513848.jpg&refer=http%3A%2F%2Fimg.sj33.cn&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=jpeg?sec=1622978613&t=7b9798e37e4683f34ba92655e9f38989"/>
+<button type="{{type}}"  style="position: relative; left: -3rpx; top: -233rpx">{{state}}</button>
+<button wx:if="{{ifCross}}" type="default" style="position: relative; left: -3rpx; top: -188rpx" bindtap="agree">同意让行</button>
+
+

@@ -1,0 +1,56 @@
+{
+  "pages":[
+    "pages/pedestrain/pedestrain",
+    "pages/driver/driver",
+    "pages/navigation/index",
+    "pages/mine/mine",
+    "pages/relatelinks/index",
+    "pages/login/index"
+    
+  ],
+  "permission":{
+    "scope.userLocation": {
+      "desc": "你的位置信息将用于小程序位置接口的效果展示" 
+    },
+    "scope.userInfo": {
+      "desc": "你的个人信息将用于小程序" 
+    }
+
+  },
+  "window":{
+    "backgroundTextStyle":"dark",
+    "navigationBarBackgroundColor": "#eb4650",
+    "navigationBarTitleText": "礼让斑马线小程序",
+    "navigationBarTextStyle":"white"
+  },
+  "tabBar": {
+    "color": "",
+    "selectedColor": "",
+    "backgroundColor": "",
+    "position": "bottom",
+    "borderStyle": "black",
+    "list": [
+      {
+        "pagePath":"pages/pedestrain/pedestrain",
+        "text": "行人",
+        "iconPath": "icons/account.png",
+        "selectedIconPath": "icons/account1.png"
+      },
+      {
+        "pagePath":"pages/driver/driver",
+        "text": "驾驶人",
+        "iconPath": "icons/auto.png",
+        "selectedIconPath": "icons/auto1.png"
+      },
+      {
+        "pagePath":"pages/mine/mine",
+        "text": "个人中心",
+        "iconPath": "icons/home.png",
+        "selectedIconPath": "icons/home1.png"
+      }
+    ]
+  },
+  
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

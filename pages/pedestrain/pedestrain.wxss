@@ -1,0 +1,8 @@
+/* pages/pedestrain/pedestrain.wxss */
+page {
+  padding-bottom: 50rpx;
+  background: -webkit-linear-gradient(top, #330033 0%,#CCCCCC 100%);
+  background: -o-linear-gradient(top, #330033 0%,#CCCCCC 100%);
+  background: -ms-linear-gradient(top, #330033 0%,#CCCCCC 100%);
+  background: linear-gradient(to bottom, #330033 0%,#99CCFF 100%);
+}
